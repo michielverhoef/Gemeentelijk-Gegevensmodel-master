@@ -1,0 +1,7 @@
+.cache
+.ipyn*
+.ipyt*
+.jup*
+.local
+__*
+~*

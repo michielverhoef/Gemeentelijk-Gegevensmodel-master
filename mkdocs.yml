@@ -1,0 +1,113 @@
+site_name: Gemeentelijk Gegevensmodel (GGM)
+site_description: Informatiemodel van alle gemeentelijke taakvelden
+site_author: Arjen Brienen
+site_url: https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/
+repo_url: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/
+google_analytics:
+  - 'UA-109371818-2'
+  - 'auto'
+nav:
+ - Home: index.md
+ - Installatie: installatie.md
+ - Beschrijving Domeinen:
+    - 'Inleiding': domeinen/inleiding.md
+    - 'Bestuur, Politiek en Ondersteuning':
+        - 'Burgerzaken': domeinen/burgerzaken.md
+        - 'Griffie': domeinen/griffie.md
+    - 'Veiligheid en Vergunningen': domeinen/vth.md
+    - 'Verkeer, Vervoer en waterstaat':
+        - 'Parkeren': domeinen/parkeren.md
+        - 'Verkeer': domeinen/verkeer.md
+    - 'Economie': domeinen/economie.md
+    - 'Onderwijs': 
+        - 'Leerplicht en leerlingenvervoer': domeinen/leerplicht.md
+        - 'Onderwijs': domeinen/onderwijs.md
+    - 'Sport, Cultuur en Recreatie':
+        - 'Erfgoed':
+            - 'Archeologie': domeinen/archeologie.md
+            - 'Monumenten': domeinen/monumenten.md
+            - 'Archief': domeinen/archief.md
+            - 'Generieke objecttypen Erfgoed': domeinen/erfgoedgeneriek.md
+        - 'Museum': domeinen/museum.md
+        - 'Sport': domeinen/sport.md
+    - 'Sociaal domein':
+        - 'Gemeentebegraven': domeinen/gemeentebegraven.md
+        - 'Wmo en Jeugd': domeinen/wmojeugd.md
+        - 'Inburgering': domeinen/inburgering.md
+        - 'Schuldhulverlening': domeinen/schuldhulp.md
+        - 'Sociale Teams': domeinen/socteam.md
+        - 'Participatie': domeinen/participatie.md
+        - 'Generieke definities Sociaal Domein': domeinen/socdomeingeneriek.md
+    - 'Volksgezondheid en milieu':
+        - 'Afval': domeinen/afval.md
+    - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
+        - 'Openbare ruimte': domeinen/ruimteAlgemeen.md
+        - 'Bouwen en wonen': domeinen/bouwenenwonen.md
+        - 'Omgevingswet': domeinen/omgevingswet.md
+    - 'Interne organisatie':
+        - 'ICT': domeinen/ict.md
+        - 'Subsidies': domeinen/subsidies.md
+        - 'Gemeentelijk Vastgoed': domeinen/vastgoed.md
+        - 'Financiën': domeinen/financien.md
+        - 'HR': domeinen/hr.md
+        - 'Inkoop': domeinen/inkoop.md
+    - 'Dienstverlening': domeinen/dienstverlening.md
+ - Definitie Domeinen:
+    - 'Bestuur, Politiek en Ondersteuning':
+        - 'Griffie': definities/definitie_Model Griffie.md
+    - 'Veiligheid en Vergunningen': definities/definitie_Model VTH.md
+    - 'Verkeer, Vervoer en waterstaat':
+        - 'Parkeren': definities/definitie_Model Parkeren.md
+        - 'Verkeer': definities/definitie_Model Verkeer en Vervoer.md
+    - 'Onderwijs': 
+        - 'Leerplicht en leerlingenvervoer': definities/definitie_Model Leerplicht en Leerlingenvervoer.md
+        - 'Onderwijs': definities/definitie_Model Onderwijs.md
+    - 'Sport, Cultuur en Recreatie':
+        - 'Erfgoed':
+            - 'Archeologie': definities/definitie_Model Archeologie.md
+            - 'Archief': definities/definitie_Model Archief.md
+            - 'Monumenten': definities/definitie_Model Monumenten.md
+        - 'Museum': definities/definitie_Model Museum.md
+        - 'Sport': definities/definitie_Model Sport.md
+    - 'Sociaal domein':
+        - 'Inburgering': definities/definitie_Model Inburgering.md
+        - 'Schuldhulverlening': definities/definitie_Model Schulhulpverlening.md
+        - 'Sociale Teams': definities/definitie_Model Sociale Teams.md
+        - 'Participatie': definities/definitie_Model Participatie.md
+        - 'Wmo en Jeugd': definities/definitie_Model Sociaal Domein.md
+    - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
+        - 'Wonen': definities/definitie_Model Wonen.md
+        - 'Omgevingswet': definities/definitie_Model Omgevingswet.md
+    - 'Interne organisatie':
+        - 'ICT': definities/definitie_Model ICT.md
+        - 'Subsidies': definities/definitie_Model Subsidies.md
+        - 'Gemeentelijk Vastgoed': definities/definitie_Model Vastgoed.md
+        - 'HR': definities/definitie_Model HR.md
+        - 'Inkoop': definities/definitie_Model Inkoop.md
+    - 'Dienstverlening': definities/definitie_Model Aanvragen en Meldingen.md
+    - 'Kern':
+        - 'RSGB': definities/definitie_Model Kern RSGB.md
+        - 'RGBZ': definities/definitie_Model Kern RGBZ.md
+        - 'BAG': definities/definitie_Model BAG.md
+ # - Gebruik: gebruik.md
+ - Totstandkoming:
+    - 'Uitleg Werkwijze': totstandkoming.md
+    - 'Voorbeeld: Gemeentelijke Monumenten': monumenten.md
+ - Generatie databaseschema's: generatie.md
+ - Overige:
+    - Over het GGM: about.md
+    - Licentie: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
+    - Documentatie aanpassen: documentatie.md
+    - Backup maken: backup.md
+    - Tooling voor manupulatie repository: tools.md
+theme:
+    name: 'material'
+    language: 'nl'
+    palette:
+        primary: 'blue'
+        accent: 'blue'
+    logo: 'img/logo.png'
+    favicon: 'img/favicon.ico'
+    toc_depth: 2
+markdown_extensions:
+  - admonition
